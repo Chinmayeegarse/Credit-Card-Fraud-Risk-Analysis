@@ -33,13 +33,13 @@ Key Metrics & KPIs
 ## Dashboard Preview
 
 ### Executive Summary
-![Dashboard1](Screenshots/dashboard1.png)
+![Dashboard1](https://github.com/Chinmayeegarse/Credit-Card-Fraud-Risk-Analysis/blob/f679d92716142db281d0962e8a78d87323ba4925/Exclusive%20Summary.png)
 
 ### Fraud Analysis
-![Dashboard2](Screenshots/dashboard2.png)
+![Dashboard2](https://github.com/Chinmayeegarse/Credit-Card-Fraud-Risk-Analysis/blob/f679d92716142db281d0962e8a78d87323ba4925/Fraud%20Analysis.png)
 
 ### Geographic Analysis
-![Dashboard3](Screenshots/dashboard3.png)
+![Dashboard3](https://github.com/Chinmayeegarse/Credit-Card-Fraud-Risk-Analysis/blob/f679d92716142db281d0962e8a78d87323ba4925/Geographic%20Analysis.png)
 
 
 
