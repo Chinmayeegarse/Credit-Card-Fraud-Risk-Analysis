@@ -1,7 +1,9 @@
 # Credit-Card-Fraud-Risk-Analysis
 
 #### Project Overview :-
-This project delivers a comprehensive and interactive Credit Card Fraud Risk Analysis Dashboard designed to monitor fraudulent transactions, assess risk exposure, and identify critical fraud patterns across transaction types, geographies, and time. The objective is to help financial institutions and risk teams detect high-risk transactions early, understand dominant fraud methods, and support data-driven fraud prevention strategies.
+This project presents an interactive Credit Card Fraud Risk Analytics Dashboard built to identify fraud patterns, assess financial risk exposure, and support data-driven fraud prevention strategies.
+
+The analysis covers 1,000+ transactions across 9 banks, uncovering key fraud drivers, high-risk regions, and time-based fraud trends.
 
 #### Explore the interactive dashboard here :-
 Credit Card Fraud Risk Analysis Dashboard – [Power BI](https://app.powerbi.com/reportEmbed?reportId=7a8d7ed8-c93e-4104-be3b-f713fe51be1c&autoAuth=true&ctid=6ae61906-14a5-49ea-96fd-b668374609d4)
@@ -21,25 +23,33 @@ The dashboard is built using credit card transaction data, including:
 * Geographic Data: State
 
 #### What the Dashboard Shows :-
-1. Key Metrics & KPIs
-2. Fraud Rate – 28.60%
+Key Metrics & KPIs
+1. Total Transaction Amount - $12.23M
+2. Fraud Rate - 27.05%
 3. Total Fraudulent Transactions – 286
 4. Critical Risk Transactions – 10.70%
-5. Total Fraud Amount – ₹3M
-6. Top Fraud Type – Card Not Present
+5. Total Fraud Amount – ₹3.31M
+
+## Dashboard Preview
+
+### Executive Summary
+![Dashboard1](Screenshots/dashboard1.png)
+
+### Fraud Analysis
+![Dashboard2](Screenshots/dashboard2.png)
+
+### Geographic Analysis
+![Dashboard3](Screenshots/dashboard3.png)
+
+
+
 
 #### Highlights :-
-* Dominant Fraud Type: Card Not Present (CNP) transactions contribute the highest fraudulent amount, indicating increased risk in online payments.
-* Risk Distribution: Low-risk transactions form the largest share (42.42%), but nearly 30% fall under Medium risk, requiring active monitoring.
-* High-Risk Categories: E-commerce and Electronics transactions show consistently higher fraud exposure across fraud types.
-* Geographic Concentration: Maharashtra, Karnataka, and Rajasthan record the highest number of fraudulent transactions.
-* Seasonal Trend: Fraud activity spikes during mid-year and peaks again in December, indicating possible festive or year-end misuse patterns.
-
-#### Output :-
-* Card Not Present fraud is the primary risk driver, demanding stronger online transaction controls.
-* A significant portion of transactions lie in Medium–Critical risk bands, highlighting the need for proactive risk scoring.
-* Certain states consistently report higher fraud counts, enabling region-focused fraud mitigation strategies.
-* Month-wise trends reveal predictable spikes that can be used for preventive monitoring and alerting.
+* Digital Channel Vulnerability: Card Not Present (CNP) fraud serves as the primary tactical risk driver (72 incidents), proving that immediate multi-factor authentication and digital checkout security upgrades are non-negotiable for online processing channels.
+* Critical Exposure Management: A massive portion of transactional value sits exposed in the Medium to Critical risk bands (representing over ₹1.57M in financial exposure), highlighting the need for live, pre-settlement risk scoring rather than post-fraud detection.
+* Geofenced Mitigation Strategies: Regional analytics isolate Karnataka, Maharashtra, and Rajasthan as high-density fraud corridors crossing a critical 30% fraud rate. Risk teams can use this output to deploy localized velocity limits and targeted merchant audits in these states.
+* Sector-Specific Resource Allocation: High-leakage sectors like Food Delivery (32.01%) and E-commerce (29.90%) require immediate transactional value caps and stricter verification protocols compared to safer sectors like Food Delivery or Groceries.
+* Predictive Alerting Framework: The predictable, recurring mid-year spikes and December festive surges identified on the temporal timeline allow the institution to dynamically scale up monitoring sensitivity and defensive fraud filters right before peak risk windows hit.
 
 #### Conclusion :-
 The analysis reveals a substantial concentration of fraud in online transactions, particularly Card Not Present payments, with clear geographic and seasonal patterns. While a large share of transactions is classified as low risk, the meaningful presence of Medium and Critical risk transactions poses a serious operational threat. Strengthening fraud detection for e-commerce channels, implementing region-specific controls, and deploying time-based monitoring can significantly reduce fraud exposure and financial losses.
